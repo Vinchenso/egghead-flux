@@ -1,5 +1,5 @@
 import AppConstants from '../constants/app-constants';
-import {dispatch, register } from '../dispatchers/app-dispacher';
+import {dispatch, register } from '../dispatchers/app-dispatcher';
 
 export default {
     addItem( item ){
