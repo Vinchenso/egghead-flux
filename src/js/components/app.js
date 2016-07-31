@@ -1,7 +1,7 @@
 import React from 'react';
-import AppActions from '../action/app-actions'
-import Catalog from './app-catalog'
-import Cart from './app-cart'
+import AppActions from '../action/app-actions';
+import Catalog from './app-catalog';
+import Cart from './app-cart';
 
 export default class App extends React.Component {
     render (){
@@ -10,6 +10,6 @@ export default class App extends React.Component {
                 <Catalog />
                 <Cart />
             </div>
-        )
+        );
     }
 }
